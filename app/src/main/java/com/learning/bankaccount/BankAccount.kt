@@ -29,4 +29,9 @@ class BankAccount(var accountHolder:String, var balance: Double) {
         }
 
     }
+
+    fun acctBalance(): Double {
+//        println("Your balance is $$balance")
+        return balance;
+    }
 }
